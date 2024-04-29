@@ -9,7 +9,7 @@ export default function Hero() {
     <div>
       <div className="bg-[#000000] w-full font-poppins pt-[]">
         <div className="max-w-[1440px] mx-auto">
-          <div style={style.bg}></div>
+          <div style={style.bg} className=""></div>
           <Slider/>
         </div>
       </div>

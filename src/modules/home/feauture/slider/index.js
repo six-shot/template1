@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import img from "../../assest/nft.png";
 
-import img2 from "../../assest/nft2.png";
+import img2 from "../../assest/PhantaBears-NFT-1.png";
 import img3 from "../../assest/nft3.png";
 import img4 from "../../assest/nft3.png";
 import img5 from "../../assest/nft5.png";
@@ -12,67 +12,67 @@ export default function Slider() {
     <div>
       <Marquee direction="right" speed={50}>
         <div className="image_wrapper">
-          <img src={img} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div className="image_wrapper">
-          <img src={img} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div className="image_wrapper">
-          <img src={img2} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div className="image_wrapper">
-          <img src={img3} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div>
-          <img src={img4} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div className="image_wrapper">
-          <img src={img5} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div className="image_wrapper">
-          <img src={img6} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div className="image_wrapper">
-          <img src={img4} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div className="image_wrapper">
-          <img src={img3} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
         <div className="image_wrapper">
-          <img src={img6} alt="" />
+          <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
         </div>
       </Marquee>
       <div className="mt-[2%]">
         <Marquee direction="left" speed={50}>
           <div className="image_wrapper">
-            <img src={img} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img2} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img3} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div>
-            <img src={img4} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img5} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img6} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img4} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img3} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
           <div className="image_wrapper">
-            <img src={img6} alt="" />
+            <img src={img2} className="w-[180px] rounded-[16px]" alt="" />
           </div>
         </Marquee>
       </div>
