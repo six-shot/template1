@@ -7,7 +7,7 @@ import Slider from "../slider";
 export default function Hero() {
   return (
     <div>
-      <div className="bg-[#000000] w-full font-poppins ">
+      <div className="bg-[#000000] w-full font-poppins px-[5%] ">
         <div className="max-w-[1440px] mx-auto">
           <div style={style.bg} className="text-white">
             <div className="w-full h-[55vh] flex flex-col gap-3 justify-center items-center">
